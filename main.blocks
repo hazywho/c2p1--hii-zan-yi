@@ -1,7 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="nj($XU96#/6}74%Y3iey" x="0" y="0"></block><block type="device_forever" id="d7qEF-sS`}hKJt2e)g~7" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id="?`nTfXoUQ@=%O7^7A%Vb"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        # . # . # 
-        . # # # . 
-        . . . . .
-        `</field></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="Vn7tLkjTROs|42@D]G6{" x="0" y="0"><statement name="HANDLER"><block type="device_set_analog_pin" id="0)C@8$/L(;cyA!Oq;}F`"><field name="name">AnalogPin.P1</field><value name="value"><shadow type="math_number_minmax" id="`x8F/@V4iyq+vkA64~}{"><mutation min="0" max="1023" label="Value" precision="0"></mutation><field name="SLIDER">1023</field></shadow><block type="device_get_analog_pin" id="O(g/3+IYkDPN!Gvwd7|B"><field name="name">AnalogPin.P0</field></block></value><next><block type="device_show_number" id="W+71.K0oLKuP;DCJXu{b"><value name="number"><shadow type="math_number" id="7RNtZ*-~@PCwqA0cG,F="><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="lu2VE_e$m9-u..joLZB."><field name="name">AnalogPin.P0</field></block></value></block></next></block></statement></block></xml>
